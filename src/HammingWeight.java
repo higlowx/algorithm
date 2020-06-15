@@ -25,6 +25,14 @@
 
 public class HammingWeight {
 
+    /**
+     * 逐位判断,根据n与1做按位与，有且仅有1&1=1,
+     * 时：O(㏒₂n),㏒₂n代表数字n最高位1的所在的位数（如㏒₂4=2，㏒₂16=4）
+     * 空：O(1)
+     *
+     * @param n
+     * @return
+     */
     public int hammingWeight0(int n) {
         int count = 0;
         while (n != 0) {
@@ -35,7 +43,23 @@ public class HammingWeight {
         return count;
     }
 
+    /**
+     *巧用 n&n-1
+     * @param n
+     * @return
+     */
+    public int hammingWeight1(int n) {
+        int count = 0;
+        while (n != 0) {
+            count++;
+            n = n & (n - 1);
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         System.out.println(new HammingWeight().hammingWeight0(19));
+        System.out.println(new HammingWeight().hammingWeight1(19));
+
     }
 }
