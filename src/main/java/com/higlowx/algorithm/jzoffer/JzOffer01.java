@@ -9,7 +9,7 @@ package com.higlowx.algorithm.jzoffer;
  * @since
  */
 
-public class JianZhiOffer01 {
+public class JzOffer01 {
 
     public boolean solution(int target, int[][] array) {
         //取左下角坐标
@@ -40,7 +40,7 @@ public class JianZhiOffer01 {
         System.out.println(array[0].length - 1);
         System.out.println(array.length);
         System.out.println(array[2][1]);
-        System.out.println(new JianZhiOffer01().solution(1, array));
+        System.out.println(new JzOffer01().solution(1, array));
     }
 
 }

@@ -10,7 +10,7 @@ import java.util.Stack;
  * @date 2020/5/26
  * @since
  */
-public class JianZhiOffer03 {
+public class JzOffer03 {
 
     /**
      * 使用java.util.Stack实现
@@ -96,7 +96,7 @@ public class JianZhiOffer03 {
             l1 = new ListNode(i);
             l1.next = temp;
         }
-        JianZhiOffer03 obj = new JianZhiOffer03();
+        JzOffer03 obj = new JzOffer03();
         //96ms
         long begin1 = System.currentTimeMillis();
         obj.printListFromTailToHead1(l1);

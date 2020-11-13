@@ -15,7 +15,7 @@ import java.util.Arrays;
  * @since
  */
 
-public class JianZhiOffer04 {
+public class JzOffer04 {
 
     public static TreeNode reConstructBinaryTree(int[] pre, int[] in) {
         if (pre.length == 0 || in.length == 0) {
@@ -50,7 +50,8 @@ class TreeNode {
     TreeNode left;
     TreeNode right;
 
-    TreeNode(){}
+    TreeNode() {
+    }
 
     TreeNode(int x) {
         val = x;

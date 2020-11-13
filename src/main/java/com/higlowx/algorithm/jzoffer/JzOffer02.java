@@ -8,13 +8,13 @@ package com.higlowx.algorithm.jzoffer;
  * @since
  */
 
-public class JianZhiOffer02 {
+public class JzOffer02 {
 
     public String replaceSpace(StringBuffer str) {
         return str.toString().replaceAll(" ", "%20");
     }
 
     public static void main(String[] args) {
-        System.out.println(new JianZhiOffer02().replaceSpace(new StringBuffer("We Are Happy")));
+        System.out.println(new JzOffer02().replaceSpace(new StringBuffer("We Are Happy")));
     }
 }
