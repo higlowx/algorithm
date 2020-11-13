@@ -1,4 +1,4 @@
-package com.dylanlee.algorithm.jzoffer;
+package com.higlowx.algorithm.jzoffer;
 
 import java.util.ArrayList;
 import java.util.Stack;
@@ -22,9 +22,9 @@ public class JianZhiOffer03 {
      */
     public ArrayList<Integer> printListFromTailToHead1(ListNode listNode) {
         if (null == listNode) {
-            return new ArrayList<>(0);
+            return new ArrayList<Integer>(0);
         }
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<Integer>();
         while (true) {
             stack.push(listNode.val);
             if (null == listNode.next) {
@@ -32,7 +32,7 @@ public class JianZhiOffer03 {
             }
             listNode = listNode.next;
         }
-        ArrayList<Integer> result = new ArrayList<>(stack.size());
+        ArrayList<Integer> result = new ArrayList<Integer>(stack.size());
         while (!stack.empty()) {
             result.add(stack.pop());
         }
@@ -48,7 +48,7 @@ public class JianZhiOffer03 {
      * @return
      */
     public ArrayList<Integer> printListFromTailToHead2(ListNode listNode) {
-        ArrayList<Integer> result = new ArrayList<>();
+        ArrayList<Integer> result = new ArrayList<Integer>();
         if (null == listNode) {
             return result;
         }
@@ -71,7 +71,7 @@ public class JianZhiOffer03 {
      * @return
      */
     public ArrayList<Integer> printListFromTailToHead3(ListNode listNode) {
-        ArrayList<Integer> result = new ArrayList<>();
+        ArrayList<Integer> result = new ArrayList<Integer>();
         if (listNode != null) {
             result = printListFromTailToHead3(listNode.next);
             result.add(listNode.val);

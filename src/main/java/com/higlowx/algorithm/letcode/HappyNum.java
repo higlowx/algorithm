@@ -1,4 +1,4 @@
-package com.dylanlee.algorithm.letcode;
+package com.higlowx.algorithm.letcode;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -15,7 +15,7 @@ public class HappyNum {
     //1.计算平方和
     //2.避免死循环->如果出现过重复平方和且这个平方和不等于1，即视为死循环且永远不会满足快乐数的定义，此时返回false
     public boolean isHappy(int n) {
-        Set<Integer> sumSet = new HashSet<>();
+        Set<Integer> sumSet = new HashSet<Integer>();
         while (n != 1) {
             if (!sumSet.add(n)) {
                 return false;

@@ -1,4 +1,4 @@
-package com.dylanlee.algorithm.letcode;
+package com.higlowx.algorithm.letcode;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -13,7 +13,7 @@ import java.util.Set;
 public class SingleNumbers {
 
     public int[] singleNumbers(int[] nums) {
-        Set<Integer> set = new HashSet<>(nums.length);
+        Set<Integer> set = new HashSet<Integer>(nums.length);
         for (int num : nums) {
             if (set.contains(num)) {
                 set.remove(num);

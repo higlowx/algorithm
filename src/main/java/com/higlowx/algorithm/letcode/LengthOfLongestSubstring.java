@@ -1,4 +1,4 @@
-package com.dylanlee.algorithm.letcode;
+package com.higlowx.algorithm.letcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ import java.util.Map;
 public class LengthOfLongestSubstring {
 
     public int lengthOfLongestSubstring(String s) {
-        HashMap<Character, Integer> map = new HashMap<>(s.length());
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>(s.length());
         int result = 0, index = 0, left = 0;
         while (index < s.length()) {
             Character c = s.charAt(index);
@@ -41,7 +41,7 @@ public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring2(String s) {
         int n = s.length(), ans = 0;
         // current index of character
-        Map<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
         // try to extend the range [i, j]
         for (int j = 0, i = 0; j < n; j++) {
             if (map.containsKey(s.charAt(j))) {

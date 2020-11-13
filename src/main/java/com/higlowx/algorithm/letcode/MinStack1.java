@@ -1,4 +1,4 @@
-package com.dylanlee.algorithm.letcode;
+package com.higlowx.algorithm.letcode;
 
 import java.util.Stack;
 
@@ -14,8 +14,8 @@ public class MinStack1 {
     private Stack<Integer> stack;
 
     public MinStack1() {
-        stack = new Stack<>();
-        minStack = new Stack<>();
+        stack = new Stack<Integer>();;
+        minStack = new Stack<Integer>();
     }
 
     public void push(int x) {
