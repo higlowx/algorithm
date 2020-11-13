@@ -1,4 +1,4 @@
-package com.dylanlee.algorithm;
+package com.dylanlee.algorithm.letcode;
 
 /**
  * @author Chris.Li

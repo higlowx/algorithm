@@ -1,4 +1,4 @@
-package com.dylanlee.algorithm;
+package com.dylanlee.algorithm.letcode;
 
 import java.util.HashMap;
 import java.util.Map;

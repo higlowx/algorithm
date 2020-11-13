@@ -1,4 +1,4 @@
-package com.dylanlee.algorithm;
+package com.dylanlee.algorithm.jzoffer;
 
 import java.util.ArrayList;
 import java.util.Stack;
