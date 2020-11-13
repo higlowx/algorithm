@@ -35,6 +35,7 @@ public class JzOffer04 {
                 root.left = reConstructBinaryTree(Arrays.copyOfRange(pre, 1, i + 1), Arrays.copyOfRange(in, 0, i));
                 // 右子树，注意 copyOfRange 函数，左闭右开
                 root.right = reConstructBinaryTree(Arrays.copyOfRange(pre, i + 1, pre.length), Arrays.copyOfRange(in, i + 1, in.length));
+                //找到根后及时终止循环，不用再向下找了，这就是题目说明中“假设输入的前序遍历和中序遍历的结果中都不含重复的数字”的意图所在
                 break;
             }
         }
