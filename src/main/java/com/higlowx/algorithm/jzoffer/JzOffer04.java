@@ -25,6 +25,12 @@ public class JzOffer04 {
         // 在中序中找到前序的根
         for (int i = 0; i < in.length; i++) {
             if (in[i] == pre[0]) {
+                // 首次循环至此，得到中序数组中根节点的index=3，以index=3为界限，左右将中序数组拆分为 左子树中序数组 和 右子树中序数组
+                // 以左子树中序数组为例，其中的元素可以非常直观的看到，即{4,7,2}，元素数为3（(index=3)-0=3）
+                // 以元素数3为依据，从前序数组根节点index=0，向后增加3个位置，得到index=3的位置
+                // 前序根节点index=0到index=3的位置之间的中间数组{2,4,7}，正是上边左子树中序数组{4,7,2}的前序数组
+                // 将拆分出的 左子树中序数组、左子树前序数组 作为入参进行递归调用，即可得到最终的左子树，右子树同理
+
                 // 左子树，注意 copyOfRange 函数，左闭右开
                 root.left = reConstructBinaryTree(Arrays.copyOfRange(pre, 1, i + 1), Arrays.copyOfRange(in, 0, i));
                 // 右子树，注意 copyOfRange 函数，左闭右开
