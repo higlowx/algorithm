@@ -1,4 +1,4 @@
-package com.higlowx.algorithm.letcode;
+package com.higlowx.algorithm.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;

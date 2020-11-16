@@ -1,6 +1,4 @@
-package com.higlowx.algorithm.letcode;
-
-import java.util.Scanner;
+package com.higlowx.algorithm.leetcode;
 
 /**
  * @author Chris.Li
