@@ -110,4 +110,8 @@ public class JzOffer09 {
         }
         return b;
     }
+
+    public static void main(String[] args) {
+        System.out.println(new JzOffer09().jumpFloorII(6));
+    }
 }
