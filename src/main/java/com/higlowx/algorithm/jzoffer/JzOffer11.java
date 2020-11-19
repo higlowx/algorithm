@@ -70,9 +70,9 @@ public class JzOffer11 {
 
     public static void main(String[] args) {
 
-        System.out.println("0000 0100中1的个数，Integer.bitCount：" + Integer.bitCount(8));
-        System.out.println("0000 0100中1的个数，numberOfOne1：" + new JzOffer11().numberOfOne1(8));
-        System.out.println("0000 0100中1的个数，numberOfOne0：" + new JzOffer11().numberOfOne0(8));
+        System.out.println("0000 1000中1的个数，Integer.bitCount：" + Integer.bitCount(8));
+        System.out.println("0000 1000中1的个数，numberOfOne1：" + new JzOffer11().numberOfOne1(8));
+        System.out.println("0000 1000中1的个数，numberOfOne0：" + new JzOffer11().numberOfOne0(8));
 
         System.out.println("0111 1111中1的个数，Integer.bitCount：" + Integer.bitCount(64 + 32 + 16 + 8 + 4 + 2 + 1));
         System.out.println("0111 1111中1的个数，numberOfOne1：" + new JzOffer11().numberOfOne1(64 + 32 + 16 + 8 + 4 + 2 + 1));
