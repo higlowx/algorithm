@@ -38,7 +38,7 @@ public class JzOffer15 {
         return faster;
     }
 
-    public static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next = null;
 
