@@ -5,6 +5,9 @@ import com.alibaba.fastjson.JSON;
 /**
  * 输入一个链表，反转链表后，输出新链表的表头。
  *
+ * leetcode:https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/
+ * nowcoder:https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca
+ *
  * @author Dylan.Li
  * @date 2020/11/23
  */

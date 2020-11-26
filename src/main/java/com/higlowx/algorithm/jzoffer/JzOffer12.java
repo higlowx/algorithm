@@ -2,7 +2,10 @@ package com.higlowx.algorithm.jzoffer;
 
 /**
  * 实现函数double Power(double base, int exponent)，求base的exponent次方。不得使用库函数，同时不需要考虑大数问题
- * *
+ * <p>
+ * TODO leetcode运行没通过
+ * leetcode:https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/submissions/
+ * nowcoder:https://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00
  *
  * @author Dylan.Li
  * @date 2020/11/20
@@ -113,6 +116,6 @@ public class JzOffer12 {
 
     public static void main(String[] args) {
         System.out.println(new JzOffer12().power2(2, 3));
-        System.out.println(new JzOffer12().power2(0, 4));
+        System.out.println(new JzOffer12().power2(2, -2));
     }
 }

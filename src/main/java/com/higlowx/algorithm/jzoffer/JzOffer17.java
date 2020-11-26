@@ -6,6 +6,11 @@ package com.higlowx.algorithm.jzoffer;
  * 输入：{8,8,#,9,#,2,#,5},{8,9,#,2}
  * 输出：true
  *
+ *
+ *
+ * leetcode:https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/
+ * nowcoder:https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88
+ *
  * @author Dylan.Li
  * @date 2020/11/25
  */

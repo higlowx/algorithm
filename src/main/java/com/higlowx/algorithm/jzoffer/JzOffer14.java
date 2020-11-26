@@ -5,6 +5,9 @@ import java.util.List;
 
 /**
  * 输入一个链表，输出该链表中倒数第k个结点
+ * <p>
+ * leetcode:https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/
+ * nowcoder:https://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a
  *
  * @author Dylan.Li
  * @date 2020/11/23

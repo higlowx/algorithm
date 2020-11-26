@@ -3,9 +3,11 @@ package com.higlowx.algorithm.jzoffer;
 /**
  * 输入一个整数，输出该数32位二进制表示中1的个数。其中负数用补码表示。
  *
+ * leetcode:
+ * nowcoder:
+ *
  * @author Dylan.Lee
  * @date 2020/11/19
- * @since
  */
 
 public class JzOffer11 {

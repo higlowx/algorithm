@@ -3,6 +3,9 @@ package com.higlowx.algorithm.jzoffer;
 /**
  * 输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。
  *
+ * leetcode:https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/
+ * nowcoder:https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337
+ *
  * @author Dylan.Li
  * @date 2020/11/24
  */
