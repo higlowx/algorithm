@@ -25,7 +25,7 @@ public class JzOffer21 {
      * B、如果比较结果为 相等，则应该继续 连续比较，直至第一次 不等时结束，然后在进入下一次push
      * <p>
      * 该解法的错误之处在于，条件B没有满足连续比较，导致，每次push之后，如果栈顶元素与popped[j]相等，只pop一次，然后立刻进入下一次push，
-     * 这就导致while循环中的(p = stack.peek()) != null && p.equals(popped[j])条件始终无法满足，进一步造成始终j<popped.len，所以循环无法终止
+     * 这就导致while循环中的(!stack.empty() && stack.peek().equals(popped[j]))条件始终无法满足，进一步造成始终j<popped.len，所以循环无法终止
      */
     public boolean validateStackSequences0(int[] pushed, int[] popped) {
         if (pushed == null || popped == null) {
