@@ -41,6 +41,8 @@ public class JzOffer30 {
      * 2.如果 array[x-1] < 0，一定有 array[x-1] + array[x] < array[x]，此时sum加上array[x-1]，对最终的sum来说是负贡献，sum会变小
      * 3.如果 array[x-1] = 0，一定有 array[x-1] + array[x] = array[x]，此时sum加上array[x-1]，对最终的sum来说是无影响，sum不变
      * *
+     *
+     * 动态规划
      */
     public int maxSubArray(int[] nums) {
         //定义一个结果值
