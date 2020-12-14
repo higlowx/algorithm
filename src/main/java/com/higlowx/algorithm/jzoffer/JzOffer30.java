@@ -17,8 +17,9 @@ package com.higlowx.algorithm.jzoffer;
  * -100 <= arr[i] <= 100
  * <p>
  * leetcode：https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof
+ * nowcoder：https://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484
  *
- * @author Dylan.Lee
+ * @author Dylan.Li
  * @date 2020/12/10
  */
 

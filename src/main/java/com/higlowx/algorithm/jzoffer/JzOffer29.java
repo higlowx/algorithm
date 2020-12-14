@@ -18,7 +18,7 @@ package com.higlowx.algorithm.jzoffer;
  * leetcode：https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof
  * nowcoder：https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf
  *
- * @author Dylan.Lee
+ * @author Dylan.Li
  * @date 2020/12/9
  */
 

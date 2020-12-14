@@ -17,7 +17,7 @@ import java.util.HashMap;
  * leetcode：https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof
  * nowcoder：https://www.nowcoder.com/practice/e8a1b01a2df14cb2b228b30ee6a92163
  *
- * @author Dylan.Lee
+ * @author Dylan.Li
  * @date 2020/12/8
  */
 
