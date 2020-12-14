@@ -1,4 +1,4 @@
-package main.java.com.higlowx.algorithm.jzoffer;
+package com.higlowx.algorithm.jzoffer;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -47,7 +47,7 @@ public class JzOffer27 {
      * https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/mian-shi-ti-38-zi-fu-chuan-de-pai-lie-hui-su-fa-by/
      */
 
-    List<String> res = new LinkedList<>();
+    List<String> res = new LinkedList<String>();
     char[] c;
 
     public String[] permutation(String s) {
@@ -64,7 +64,7 @@ public class JzOffer27 {
             return;
         }
         //开启一个set集合，用于判断i这个位置上是否已经存在过当前的字符
-        HashSet<Character> set = new HashSet<>();
+        HashSet<Character> set = new HashSet<Character>();
         for (int i = x; i < c.length; i++) {
             // 重复，则剪枝，进入下一次循环
             if (set.contains(c[i])) {

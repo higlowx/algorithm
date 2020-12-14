@@ -1,4 +1,4 @@
-package main.java.com.higlowx.algorithm.jzoffer;
+package com.higlowx.algorithm.jzoffer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,7 +31,7 @@ public class JzOffer28 {
 
     public int majorityElement0(int[] nums) {
         if (count == null) {
-            count = new HashMap<>(nums.length / 2);
+            count = new HashMap<Integer, Integer>(nums.length / 2);
         }
         for (int num : nums) {
             if (!count.containsKey(num)) {
@@ -52,7 +52,7 @@ public class JzOffer28 {
      * 时间复杂度O(N)，空间复杂度O(N)
      */
     public int majorityElement1(int[] nums) {
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<Integer>();
         for (int num : nums) {
             list.add(num);
         }

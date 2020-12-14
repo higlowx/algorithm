@@ -1,4 +1,4 @@
-package main.java.com.higlowx.algorithm.jzoffer;
+package com.higlowx.algorithm.jzoffer;
 
 /**
  * 连续子数组的和的最大值（Maximum Sum Subarray）
