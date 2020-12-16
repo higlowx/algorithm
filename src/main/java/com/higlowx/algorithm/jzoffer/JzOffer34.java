@@ -3,6 +3,22 @@ package com.higlowx.algorithm.jzoffer;
 import java.util.LinkedHashMap;
 
 /**
+ * 第一个只出现一次的字符
+ * <p>
+ * 在字符串 s 中找出第一个只出现一次的字符。如果没有，返回一个单空格。 s 只包含小写字母。
+ * <p>
+ * 示例:
+ * s = "abaccdeff"
+ * 返回 "b"
+ * s = ""
+ * 返回 " "
+ *  
+ * 限制：
+ * 0 <= s 的长度 <= 50000
+ * <p>
+ * leetcode：https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof
+ * nowcoder：https://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c
+ *
  * @author Dylan.Li
  * @date 2020/12/16
  */
@@ -15,7 +31,7 @@ public class JzOffer34 {
      * Q：为什么不使用HashMap，而是使用LinkedHashMap？
      * A：使用LinkedHashMap可以达到插入与遍历的顺序一致
      * <p>
-     * Q：为什么第二遍遍历不使用字符串本身，而是使用LinkedHashMap？
+     * Q：为什么第二遍遍历不使用字符串s本身，而是使用LinkedHashMap？
      * （对比题解https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/solution/mian-shi-ti-50-di-yi-ge-zhi-chu-xian-yi-ci-de-zi-3/）
      * A：避免了第二次遍历s时因为重复字符导致多余校验的问题
      * <p>
