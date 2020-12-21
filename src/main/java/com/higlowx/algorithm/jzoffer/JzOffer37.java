@@ -1,6 +1,16 @@
 package com.higlowx.algorithm.jzoffer;
 
 /**
+ *
+ * 统计一个数字在升序数组中出现的次数
+ *
+ * 例1：
+ * 输入：[1,2,3,3,3,3,4,5],3
+ * 输出：4
+ *
+ * leetcode：https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/
+ * nowcoder：https://www.nowcoder.com/practice/70610bf967994b22bb1c26f9ae901fa2
+ *
  * @author Dylan.Li
  * @date 2020/12/21
  */
