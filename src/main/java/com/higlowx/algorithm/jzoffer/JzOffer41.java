@@ -22,7 +22,7 @@ public class JzOffer41 {
                 result.add(a);
             }
         }
-
+        return null;
     }
 
 }
