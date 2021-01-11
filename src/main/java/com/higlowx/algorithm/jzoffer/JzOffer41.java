@@ -42,7 +42,7 @@ public class JzOffer41 {
         int left = 1, right = 2, sum = 3;
         //int  leftLimit = (target - 1) / 2;
         //while (left < right && left <= leftLimit && right < target) {
-        //改用以上边界，执行耗时会降低，虽然会减少比较的次数
+        //改用以上边界，执行耗时会增加，虽然会减少比较的次数
         while (left < right && right < target) {
             if (sum == target) {
                 int[] res = new int[right - left + 1];
